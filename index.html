@@ -25,23 +25,64 @@
 <iframe width="650" height="420" name="obszar_glowny" src="glowny_kukawka.html" title="Obszar główny"></iframe>
 <br><b>OKNO 2 — OBSZAR GŁÓWNY</b>
 </td>
-<td width="18%" valign="top" align="center">
-<b>PRAWE MENU</b>
-<ul>
-<li><a href="plik_do_pobrania_kukawka.txt" download>Opcja 1 — pobierz plik</a></li>
-<li><a href="tabela_kukawka.html" target="obszar_glowny">Opcja 2 — zobacz tabelę</a></li>
-<li><a href="formularz_kukawka.html" target="obszar_glowny">Opcja 3 — zobacz formularz</a></li>
-<li><a href="mailto:twoj_adres@example.com?subject=Zadanie%2013">Opcja 4 — wyślij pocztę</a></li>
-<li><a href="z1_z6_kukawka.html" target="obszar_glowny">Opcja 5 — zadania Z1–Z6</a></li>
-</ul>
+
+<td align="center" valign="top">
+  <b>PRAWE MENU - KUKAWKA</b>
+  <p>Wybierz opcję:</p>
+
+  <img src="mapa.gif"
+       width="100"
+       height="300"
+       alt="Mapa graficzna Kukawka"
+       usemap="#mapa_kukawka">
+
+  <map name="mapa_kukawka" id="mapa_kukawka">
+
+    <!-- Opcja 1: brązowy okrąg -->
+    <area shape="circle" coords="50,30,23"
+          href="plik_do_pobrania_kukawka.txt"
+          download alt="Pobierz plik">
+
+    <!-- Opcja 2: niebieski prostokąt -->
+    <area shape="rect" coords="12,67,88,103"
+          href="tabela_kukawka.html"
+          target="obszar_glowny"
+          alt="Zobacz tabelę">
+
+    <!-- Opcja 3: żółty okrąg -->
+    <area shape="circle" coords="50,150,23"
+          href="formularz_kukawka.html"
+          target="obszar_glowny"
+          alt="Zobacz formularz">
+
+    <!-- Opcja 4: zielony prostokąt -->
+    <area shape="rect" coords="12,187,88,223"
+          href="mailto:twoj_adres@example.com?subject=Zadanie%2014"
+          alt="Wyślij pocztę">
+
+    <!-- Opcja 5: czerwony trójkąt -->
+    <area shape="poly" coords="50,244,88,293,12,293"
+          href="z1_z6_kukawka.html"
+          target="obszar_glowny"
+          alt="Zadania Z1-Z6">
+
+  </map>
 </td>
 </tr>
+
 <tr>
-<td colspan="3" align="center">
-<iframe scrolling="no" width="900" height="90" name="obszar_stopka" src="stopka_kukawka.html" title="Stopka"></iframe>
-</td>
+  <td colspan="3" align="center">
+    <iframe scrolling="no"
+            width="900"
+            height="90"
+            name="obszar_stopka"
+            src="stopka_kukawka.html"
+            title="Stopka">
+    </iframe>
+  </td>
 </tr>
 </table>
 </body>
 </html>
+
 
