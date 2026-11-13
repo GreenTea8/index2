@@ -1,14 +1,133 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head><meta charset="utf-8"><title>Formularz</title></head>
-<body>
-<h2>Prosty formularz</h2>
-<form>
-<label>Imię: <input type="text" name="imie"></label><br><br>
-<label>E-mail: <input type="email" name="email"></label><br><br>
-<label>Wiadomość:<br><textarea name="wiadomosc" rows="5" cols="35"></textarea></label><br><br>
-<input type="submit" value="Wyślij">
-<input type="reset" value="Wyczyść">
-</form>
-</body>
-</html>
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+<html> 
+     <head> 
+             <meta charset="utf-8"> 
+             <title>   Formularz Kukawka   </title> 
+     </head> 
+     
+     <body bgcolor="lightblue"> 
+         Jestem na stronie formularza <br>
+
+    <h3 align="center">Ankieta sportowa</h3>
+
+    <form>
+
+        <table width="100%">
+            <tr>
+                <td width="55%" valign="top">
+
+                    <p>1. Wybierz płeć</p>
+
+                    <select name="plec">
+                        <option value=""></option>
+                        <option value="kobieta">Kobieta</option>
+                        <option value="mezczyzna">Mężczyzna</option>
+                        <option value="brak">Nie chcę podawać</option>
+                    </select>
+
+                    <br><br>
+
+                    <p>2. Wpisz datę urodzenia</p>
+
+                    <input type="text" name="data" placeholder="DD.MM.RRRR">
+
+                    <br><br>
+
+                    <p>3. Wybierz twój przedział wzrostu:</p>
+
+                    <input type="radio" name="wzrost" value="ponizej170">
+                    &lt; 170 cm<br>
+
+                    <input type="radio" name="wzrost" value="170-175">
+                    170 – 175 cm<br>
+
+                    <input type="radio" name="wzrost" value="176-180">
+                    176 – 180 cm<br>
+
+                    <input type="radio" name="wzrost" value="181-185">
+                    181 – 185 cm<br>
+
+                    <input type="radio" name="wzrost" value="186-190">
+                    186 – 190 cm<br>
+
+                    <input type="radio" name="wzrost" value="ponad190">
+                    190 cm+<br>
+
+                    <br>
+
+                    <p>4. Wpisz swój ulubiony sport:</p>
+
+                    <input type="text" name="sport">
+
+                </td>
+
+                <td width="45%" valign="top">
+
+                    <p>
+                        5. Kiedy ostatnio grałeś w twój
+                        ulubiony sport?
+                    </p>
+
+                    <input type="radio" name="ostatnio" value="dzisiaj">
+                    Dzisiaj<br><br>
+
+                    <input type="radio" name="ostatnio" value="wczoraj">
+                    Wczoraj<br><br>
+
+                    <input type="radio" name="ostatnio" value="2-7">
+                    2 - 7 dni temu<br><br>
+
+                    <input type="radio" name="ostatnio" value="8-21">
+                    8 - 21 dni temu<br><br>
+
+                    <input type="radio" name="ostatnio" value="22-60">
+                    22 - 60 dni temu<br><br>
+
+                    <input type="radio" name="ostatnio" value="2miesiace">
+                    Ponad 2 miesiące temu<br><br>
+
+                    <input type="radio" name="ostatnio" value="rok">
+                    Ponad rok temu<br><br>
+
+                    <br>
+
+                    <p>
+                        6. Ile miałeś lat gdy po raz
+                        pierwszy zapisałeś w twój
+                        ulubiony sport?
+                    </p>
+
+                    <input type="radio" name="wiek" value="ponizej5">
+                    &lt; 5 lat<br><br>
+
+                    <input type="radio" name="wiek" value="6-12">
+                    6 – 12 lat<br><br>
+
+                    <input type="radio" name="wiek" value="13-17">
+                    13 – 17 lat<br><br>
+
+                    <input type="radio" name="wiek" value="18-25">
+                    18 – 25 lat<br><br>
+
+                    <input type="radio" name="wiek" value="26-40">
+                    26 – 40 lat<br><br>
+
+                    <input type="radio" name="wiek" value="41-60">
+                    41 – 60 lat<br><br>
+
+                    <input type="radio" name="wiek" value="61">
+                    61 lat lub więcej<br><br>
+
+                    <br>
+
+                    <button type="submit">SUBMIT</button>
+
+                </td>
+            </tr>
+        </table>
+
+    </form>
+         <A HREF="index.html"> Wróć </A> 
+    </body> 
+  </html> 
